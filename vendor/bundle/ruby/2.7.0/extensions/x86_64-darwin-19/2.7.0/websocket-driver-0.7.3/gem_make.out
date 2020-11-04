@@ -1,0 +1,15 @@
+current directory: /Users/testing/Documents/GitHub/blogger/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+/Users/testing/.rvm/rubies/ruby-2.7.2/bin/ruby -I /Users/testing/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0 -r ./siteconf20201104-33722-ldujzc.rb extconf.rb
+creating Makefile
+
+current directory: /Users/testing/Documents/GitHub/blogger/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/testing/Documents/GitHub/blogger/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/testing/Documents/GitHub/blogger/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20201104-33722-1u1t23l
