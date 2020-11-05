@@ -175,7 +175,7 @@ input[type=submit] {
   -khtml-background-clip: padding-box;
   background-clip: padding-box;
   font-size: 1.2em;
-  color: #fff
+  color: #fff;
 }
 
 .fancy-button-reset-base-class::-moz-focus-inner,
@@ -724,10 +724,7 @@ input[type=submit]:active {
   -webkit-box-shadow: #192836 0 0.08em 0.2em 1px inset;
   -o-box-shadow: #192836 0 0.08em 0.2em 1px inset;
   box-shadow: #192836 0 0.08em 0.2em 1px inset;
-}
-
-input[type=submit]:active {
-  color: #fff
+  color: #fff;
 }
 
 input[type=submit]:hover,
