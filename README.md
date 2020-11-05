@@ -9,10 +9,6 @@ Blogger is a simple blog system project where we use MVC, Data Structures & Rela
 - Ruby
 - Rails
 
-## Live Demo
-
-[Check our code](https://repl.it/@jcy2704/UnripePutridService#main.rb)
-
 ## Getting Started
 
 **This project was created to understand MVC and Data Structures**
