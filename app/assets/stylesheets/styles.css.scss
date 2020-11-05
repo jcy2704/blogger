@@ -2,10 +2,8 @@ $primary_color: #aaa;
 
 body {
   background-color: $primary_color;
-  font: {
-    family: verdana, helvetica, arial;
-    size: 14px;
-  }
+  font-family: verdana, helvetica, arial;
+  font-size: 14px;
 }
 
 a {
