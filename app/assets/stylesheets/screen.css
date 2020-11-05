@@ -70,7 +70,6 @@ td {
 }
 
 body {
-  line-height: 1;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #fff;
   margin: 50px auto 30px;
@@ -178,15 +177,25 @@ input[type=submit] {
   font-size: 1.2em;
 }
 
-input[type=submit],
-input[type=submit]:visited {
-  color: #fff;
-}
-
 .fancy-button-reset-base-class::-moz-focus-inner,
 input[type=submit]::-moz-focus-inner {
   border: none;
   padding: 0;
+}
+
+input[type=submit]:hover,
+input[type=submit]:focus {
+  background-color: #11467c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #769bbf), color-stop(10%, #466d94), color-stop(50%, #283f55), color-stop(50%, #23374b), color-stop(100%, #34516d));
+  background-image: -moz-linear-gradient(#769bbf, #466d94 10%, #283f55 50%, #23374b 50%, #34516d);
+  background-image: linear-gradient(#769bbf, #466d94 10%, #283f55 50%, #23374b 50%, #34516d);
+  border-color: #15202c;
+  text-shadow: #02070c 0 1px 1px;
+}
+
+input[type=submit],
+input[type=submit]:visited {
+  color: #fff;
 }
 
 .fancy-button-reset-base-class:focus,
@@ -571,14 +580,12 @@ a.new_article:active,
   border-bottom: 0;
 }
 
-#articles .actions a {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
-  filter: opacity=20;
-  opacity: 0.2;
-}
-
 #sidebar ul a {
   color: #6c7c9a;
+}
+
+#articles .actions a {
+  opacity: 0.2;
 }
 
 #articles li > a:first-child {
@@ -598,8 +605,6 @@ a.new_article:active,
 }
 
 #articles .actions a:hover {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-  filter: (opacity=40);
   opacity: 0.4;
 }
 
@@ -621,16 +626,12 @@ a.new_article:active,
 }
 
 .article_actions img {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
-  filter: (opacity=20);
   opacity: 0.2;
   position: relative;
   top: 2px;
 }
 
 .article_actions a:hover img {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-  filter: (opacity=60);
   opacity: 0.6;
 }
 
@@ -710,16 +711,6 @@ form label {
   padding-bottom: 0.2em;
   display: inline-block;
   text-transform: uppercase;
-}
-
-input[type=submit]:hover,
-input[type=submit]:focus {
-  background-color: #11467c;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #769bbf), color-stop(10%, #466d94), color-stop(50%, #283f55), color-stop(50%, #23374b), color-stop(100%, #34516d));
-  background-image: -moz-linear-gradient(#769bbf, #466d94 10%, #283f55 50%, #23374b 50%, #34516d);
-  background-image: linear-gradient(#769bbf, #466d94 10%, #283f55 50%, #23374b 50%, #34516d);
-  border-color: #15202c;
-  text-shadow: #02070c 0 1px 1px;
 }
 
 input[type=submit]:active {
