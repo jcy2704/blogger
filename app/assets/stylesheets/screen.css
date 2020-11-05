@@ -177,15 +177,15 @@ input[type=submit] {
   font-size: 1.2em;
 }
 
-input[type=submit],
-input[type=submit]:visited {
-  color: #fff;
-}
-
 .fancy-button-reset-base-class::-moz-focus-inner,
 input[type=submit]::-moz-focus-inner {
   border: none;
   padding: 0;
+}
+
+input[type=submit],
+input[type=submit]:visited {
+  color: #fff;
 }
 
 input[type=submit]:hover,
@@ -726,15 +726,15 @@ input[type=submit]:active {
   box-shadow: #192836 0 0.08em 0.2em 1px inset;
 }
 
-input[type=submit]:hover,
-input[type=submit]:hover:visited,
-input[type=submit]:focus,
-input[type=submit]:focus:visited {
+input[type=submit]:active,
+input[type=submit]:active:visited {
   color: #fff;
 }
 
-input[type=submit]:active,
-input[type=submit]:active:visited {
+input[type=submit]:hover,
+input[type=submit]:focus,
+input[type=submit]:hover:visited,
+input[type=submit]:focus:visited {
   color: #fff;
 }
 
