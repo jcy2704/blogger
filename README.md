@@ -21,6 +21,7 @@ Computer running Mac OS, Windows, or Linux Ubuntu.
 Internet browser: Firefox, Google Chrome, Opera...
 
 [Install Ruby](https://www.theodinproject.com/courses/ruby-programming/lessons/installing-ruby-ruby-programming)
+
 [Install Rails](https://www.theodinproject.com/courses/ruby-on-rails/lessons/your-first-rails-application-ruby-on-rails)
 
 After installing Ruby, you need to install `bundler` to be able to use `bundle install` to install gems and dependancies for this project.
