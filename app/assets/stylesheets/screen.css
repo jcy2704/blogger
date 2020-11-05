@@ -177,15 +177,14 @@ input[type=submit] {
   font-size: 1.2em;
 }
 
+input[type=submit] {
+  color: #fff;
+}
+
 .fancy-button-reset-base-class::-moz-focus-inner,
 input[type=submit]::-moz-focus-inner {
   border: none;
   padding: 0;
-}
-
-input[type=submit],
-input[type=submit]:visited {
-  color: #fff;
 }
 
 input[type=submit]:hover,
@@ -196,6 +195,10 @@ input[type=submit]:focus {
   background-image: linear-gradient(#769bbf, #466d94 10%, #283f55 50%, #23374b 50%, #34516d);
   border-color: #15202c;
   text-shadow: #02070c 0 1px 1px;
+}
+
+input[type=submit]:visited {
+  color: #fff;
 }
 
 .fancy-button-reset-base-class:focus,
