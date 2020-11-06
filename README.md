@@ -9,6 +9,10 @@ Blogger is a simple blog system project where we use MVC, Data Structures & Rela
 - Ruby
 - Rails
 
+## Live Preview
+
+[Blogger](https://shielded-sierra-10062.herokuapp.com)
+
 ## Getting Started
 
 **This project was created to understand MVC and Data Structures**
